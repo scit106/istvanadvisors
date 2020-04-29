@@ -1,0 +1,188 @@
+/* overrides */
+html {
+	height: 100%;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, p {
+	margin: 0px;
+	font-weight: 400;
+	padding: 0px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Crimson Text', serif;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Font */
+.title-font {
+	font-family: 'Crimson Text', serif;
+}
+
+.body-font {
+	font-family: 'Roboto', sans-serif;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.light {
+	font-weight: 100;
+}
+
+/* Layout */
+.padding {
+	padding: 5px 10px;
+}
+
+.centered {
+	margin: 0px auto;
+	text-align: center;
+}
+
+.limit-width {
+	max-width: 600px;
+}
+
+.block {
+	display: block;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.float-right {
+	float: right;
+}
+
+.half-width {
+	width: 50%;
+}
+
+.half-height {
+	height: 50%;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-around;
+}
+
+.flex-child {
+	flex-basis: 50%;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.margin-bottom {
+	margin-bottom: 10px;
+}
+
+/* Color */
+.mid-grey-bk {
+	background-color: #d4d3d447;
+}
+
+.light-grey-bk {
+	background-color: rgb(247, 248, 250);
+}
+
+.teal {
+	color: #21b592;
+}
+
+a.teal:hover {
+	color: #424242;
+}
+
+.green-bk {
+	background-color: #0a5c15;
+}
+
+.white {
+	color: #fafafa;
+}
+
+.green {
+	color: #0a5c15;
+}
+
+.content-section {
+	padding: 20px;
+	min-height: 400px;
+}
+
+/* Specific styles */
+.logo {
+	height: 50px;
+}
+
+.hero-img {
+	background-image: url('./sailboat.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 400px;
+}
+
+.headshot {
+	background-image: url('./headshot.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 300px;
+}
+
+.footer {
+	padding: 20px 10px;
+}
+
+.links {
+	font-size: 120%;
+}
+
+.link-margin {
+	margin-bottom: 5px;
+}
+
+.icon-links-row {
+	margin-top: 10px;
+}
+
+@media (max-width: 850px) {
+	.half-width {
+		width: 100%;
+		height: auto;
+	}
+
+	.half-height {
+		min-height: 300px;
+	}
+
+	.scott-headshot {
+		min-height: 300px;
+	}
+}
