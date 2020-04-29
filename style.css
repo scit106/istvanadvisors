@@ -19,8 +19,17 @@ h1, h2, h3, h4, h5 {
 	font-family: 'Crimson Text', serif;
 }
 
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 48px;
+}
+
 p {
 	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
 }
 
 div {
@@ -29,9 +38,10 @@ div {
 
 a {
 	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
 }
 
-/* Font */
+/* Font and text */
 .title-font {
 	font-family: 'Crimson Text', serif;
 }
@@ -46,6 +56,19 @@ a {
 
 .light {
 	font-weight: 100;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.line-height-1 {
+	line-height: 1;
+}
+
+.small {
+	font-size: 12px;
+	color: #d4d4d4;
 }
 
 /* Layout */
@@ -68,6 +91,10 @@ a {
 
 .inline-block {
 	display: inline-block;
+}
+
+.inline {
+	display: inline;
 }
 
 .float-right {
@@ -104,7 +131,7 @@ a {
 
 /* Color */
 .mid-grey-bk {
-	background-color: #d4d3d447;
+	background-color: #d4d4d4;
 }
 
 .light-grey-bk {
@@ -131,11 +158,18 @@ a.teal:hover {
 	color: #0a5c15;
 }
 
+.dark-grey {
+	color: #565656;
+}
+
 .content-section {
 	padding: 20px;
 	min-height: 400px;
 }
 
+.padding-top {
+	padding-top: 20px;
+}
 /* Specific styles */
 .logo {
 	height: 50px;
@@ -157,7 +191,7 @@ a.teal:hover {
 }
 
 .footer {
-	padding: 20px 10px;
+	padding: 20px;
 }
 
 .links {
