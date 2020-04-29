@@ -19,10 +19,6 @@ h1, h2, h3, h4, h5 {
 	font-family: 'Crimson Text', serif;
 }
 
-h1 {
-	font-size: 60px;
-}
-
 h2 {
 	font-size: 48px;
 }
@@ -82,7 +78,7 @@ a {
 }
 
 .limit-width {
-	max-width: 600px;
+	max-width: 800px;
 }
 
 .block {
@@ -146,16 +142,16 @@ a.teal:hover {
 	color: #424242;
 }
 
-.green-bk {
-	background-color: #0a5c15;
+.blue-bk {
+	background-color: #0a4e5c;
 }
 
 .white {
 	color: #fafafa;
 }
 
-.green {
-	color: #0a5c15;
+.blue {
+	color: #0a4e5c;
 }
 
 .dark-grey {
@@ -172,7 +168,7 @@ a.teal:hover {
 }
 /* Specific styles */
 .logo {
-	height: 50px;
+	height: 60px;
 }
 
 .hero-img {
@@ -180,6 +176,10 @@ a.teal:hover {
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 400px;
+}
+
+.tagline {
+	font-size: 42px;
 }
 
 .headshot {
