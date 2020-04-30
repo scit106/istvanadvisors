@@ -105,14 +105,6 @@ ul {
 	float: right;
 }
 
-.half-width {
-	width: 50%;
-}
-
-.half-height {
-	height: 50%;
-}
-
 .flex {
 	display: flex;
 	justify-content: space-around;
@@ -235,17 +227,26 @@ ul {
 	background-color: #128198;
 }
 
-@media (max-width: 850px) {
-	.half-width {
+@media (max-width: 600px) {
+	h1 {
+		font-size: 36px;
+	}
+
+	h2 {
+		font-size: 28px;
+	}
+
+	.flex {
+		flex-direction: column;
+	}
+
+	.card {
+		max-width: 100%;
 		width: 100%;
-		height: auto;
+		margin-bottom: 20px;
 	}
 
-	.half-height {
-		min-height: 300px;
-	}
-
-	.scott-headshot {
-		min-height: 300px;
+	.headshot {
+		order: 2;
 	}
 }
