@@ -23,6 +23,10 @@ h2 {
 	font-size: 48px;
 }
 
+h3 {
+	font-size: 24px;
+}
+
 p {
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.5;
@@ -125,6 +129,13 @@ a {
 	margin-bottom: 10px;
 }
 
+.card {
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 2px 2px 5px rgba(86, 86, 86, 0.5);
+	max-width: 40%;
+}
+
 /* Color */
 .mid-grey-bk {
 	background-color: #d4d4d4;
@@ -132,14 +143,6 @@ a {
 
 .light-grey-bk {
 	background-color: rgb(247, 248, 250);
-}
-
-.teal {
-	color: #21b592;
-}
-
-a.teal:hover {
-	color: #424242;
 }
 
 .blue-bk {
@@ -150,6 +153,9 @@ a.teal:hover {
 	color: #fafafa;
 }
 
+.white-bk {
+	background-color: #fafafa;
+}
 .blue {
 	color: #0a4e5c;
 }
